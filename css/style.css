@@ -1,0 +1,51 @@
+
+
+body {
+    color: black;
+    font-size: 18px;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.traka {
+    background: tomato;
+    padding: 20px;
+}
+
+/* max-width ako se ide prema manjim ekranima
+   min-width ako se ide prema većim ekranima*/
+
+
+/* tableti */
+@media (max-width: 768px) {
+
+    h1  {
+        color: blue;
+        font-size: 30px;
+    }
+
+    .traka {
+        background: blue;
+    }
+
+}
+
+/* mobiteli */
+@media (max-width: 360px) {
+
+    h1  {
+        color: red;
+        font-size: 16px;
+    }
+
+    .traka {
+        background: green;
+    }
+
+}
+
+
